@@ -3,8 +3,7 @@
 
 ---
 
-<h1 id="image-classification">Image classification</h1>
-<h2 id="ch02-图像分类">CH02 图像分类</h2>
+<h1 id="ch02-image-classification-图像分类">CH02 Image classification 图像分类</h1>
 <h3 id="一、-图像分类、数据驱动方法和流程">一、 图像分类、数据驱动方法和流程</h3>
 <ol>
 <li><strong>图像分类</strong>
@@ -43,6 +42,10 @@
 </li>
 <li><strong>k-Nearest Neighbor分类器（K-近邻算法）</strong><br>
 针对上述KNN算法的不足，与其只找最相近的那1个图片的标签，我们找最相似的k个图片的标签，然后让他们针对测试图片进行投票，最后把票数最高的标签作为对测试图片的预测。所以当k=1的时候，k-Nearest Neighbor分类器就是Nearest Neighbor分类器。从直观感受上就可以看到，更高的k值可以让分类的效果更平滑，使得分类器对于异常值更有抵抗力。</li>
-<li><strong>距离选择</strong></li>
+<li><strong>距离选择</strong><br>
+不同的距离度量的选择会对底层拓扑结构的预测产生影响。<br>
+<strong>L1距离：</strong> 取决于坐标系的选取，对目标任务有特定意义时采用<br>
+<strong>L2距离：</strong> 不受坐标系的影响，更加自然</li>
 </ol>
+<h3 id="二、验证集、交叉验证集和超参数调优">二、验证集、交叉验证集和超参数调优</h3>
 
