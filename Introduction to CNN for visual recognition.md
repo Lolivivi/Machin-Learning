@@ -23,4 +23,5 @@
 如果数据集过小则会出现过拟合化的问题。<br>
 从2012年Imagenet的比赛开始，CNN(卷积神经网络)一直是赢家。<br>
 CNN实际上是在1997年由Yann Lecun发明的。</p>
+<p>参考课件：<a href="http://cs231n.stanford.edu/slides/2018/cs231n_2018_lecture01.pdf">cs231n_2018_lecture01</a></p>
 
