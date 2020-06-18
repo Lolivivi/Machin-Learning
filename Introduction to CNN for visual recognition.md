@@ -3,8 +3,7 @@
 
 ---
 
-<h1 id="introduction-to-cnn-for-visual-recognition">Introduction to CNN for visual recognition</h1>
-<h2 id="ch01-cnn简介">CH01 CNN简介</h2>
+<h1 id="ch01-introduction-to-cnn-for-visual-recognition-cnn简介">CH01 Introduction to CNN for visual recognition CNN简介</h1>
 <h3 id="计算机视觉从20世纪60年代末到2017年的简史">1. 计算机视觉从20世纪60年代末到2017年的简史</h3>
 <h3 id="计算机视觉问题包括图像分类、目标定位、目标检测和场景理解">2. 计算机视觉问题包括图像分类、目标定位、目标检测和场景理解</h3>
 <ul>
